@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario Bros</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/super-mario.png">
+</head>
+<body>
+    
+    <div class="caixa-video-mario">
+        <video src="./assets/video.mp4" autoplay muted loop></video>
+        <div class="mascara-video"></div>
+    </div>
+
+    <div class="container">
+        <div class="caixa-principal">
+            <img src="./assets/logo.png" alt="Logo Super Mario" class="logo-mario">
+            <p>Encanadores Mario & Luigi - Resolvendo Seus Problemas Com Estilo!</p>
+            <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos entupidos
+                ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos a
+                vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+            <button onclick="cliqueiNoBotao()">Fale Conosco</button>
+        </div>
+
+        <img src="./assets/mario.png" alt="Logo Mario e Luigi" class="imagem-mario-luigi">
+
+        <form action="#" class="fale-conosco">
+            <h1>Fale Conosco</h2>
+            <input type="text" placeholder="Seu Nome">
+            <input type="tel" placeholder="Seu Telefone">
+            <textarea placeholder="Digite sua mensagem..."></textarea>
+            <button onclick="sumirFormulario()">Enviar Formulário</button>
+        </form>
+
+        <div class="mascara-form"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
